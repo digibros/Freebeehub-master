@@ -1,0 +1,105 @@
+/* for large screens */
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0px 0px 10px #d7d7d7;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  z-index: 2;
+  background-color: #fff;
+}
+.header-main {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%;
+}
+.header-logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.input-div-lg {
+  position: relative;
+  width: 60%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+}
+.header-search-lg {
+  position: relative;
+  border: none;
+  background-color: #f5f5f5;
+  padding: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 100%;
+}
+.search-icon {
+  position: absolute;
+  right: 0;
+  font-size: 0.9rem;
+  margin-right: 10px;
+  color: rgb(150, 150, 150);
+}
+.header-search-lg:focus {
+  outline: none;
+}
+.user-details-lg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 10px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.location:hover > .location-icon {
+  transform: scale(1.2);
+}
+.login-button {
+  background-color: #00c8e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px 7px;
+  font-weight: 500;
+  margin-left: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+.login-button:hover {
+  background-color: #01b3d2;
+}
+/* for small screns */
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 0px 6px #d7d7d7;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-search-lg {
+    display: none;
+  }
+  .user-details-lg {
+    display: none;
+  }
+  .input-div-lg {
+    display: none;
+  }
+}
