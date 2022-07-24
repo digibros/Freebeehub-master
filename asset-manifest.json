@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9cecd208.css",
+    "main.js": "/static/js/main.c1846d77.js",
+    "static/media/banner1.jpg": "/static/media/banner1.b88703f8532a4415802d.jpg",
+    "static/media/dummy.webp": "/static/media/dummy.30319434924c75b8c388.webp",
+    "static/media/electric-appliance.png": "/static/media/electric-appliance.864dcde534ca7115dbb9.png",
+    "static/media/others.png": "/static/media/others.7f3252fa1cedd6758d94.png",
+    "static/media/electronics.png": "/static/media/electronics.5a75b0868e54cb9eba66.png",
+    "static/media/smartwatch.png": "/static/media/smartwatch.cc9672063176063f9ab8.png",
+    "static/media/earbuds.png": "/static/media/earbuds.6f6437c332d565ae0263.png",
+    "index.html": "/index.html",
+    "main.9cecd208.css.map": "/static/css/main.9cecd208.css.map",
+    "main.c1846d77.js.map": "/static/js/main.c1846d77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cecd208.css",
+    "static/js/main.c1846d77.js"
+  ]
+}
